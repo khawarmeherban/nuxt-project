@@ -1,5 +1,6 @@
 <template>
   <div
+    style="min-width: 1200px"
     class="flex items-center w-screen h-screen overflow-hidden bg-gray-100 min-w-max"
   >
     <div class="bg-white w-1/2 h-full relative rounded-r-3xl">
@@ -234,7 +235,13 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+* {
+    box-sizing: border-box;
+    font-family: Inter,Open Sans,sans-serif;
+    margin: 0;
+    padding: 0;
+}
 .trusted-wraper {
   position: absolute;
   transform: translateX(-50%);
